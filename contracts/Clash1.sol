@@ -2,7 +2,7 @@ pragma solidity ^0.4.4;
 
 /**
  * 
- * Implements a simple ERC20 Token
+ * creating crypto currency
  * V1 >> Implements simple token that does not support approve/transferFrom & allowance function
  *       This version will not be ERC20 compliant as it does not implement all specs funcs/events
  * V2 >> Supports the approve/transferFrom & allowance function
