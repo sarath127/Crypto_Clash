@@ -1,8 +1,6 @@
 pragma solidity ^0.4.4;
 
 /**
- * Part of the Ethereum DAPPs design and development course
- * http://ACloudFan.com
  * 
  * Implements a simple ERC20 Token
  * V1 >> Implements simple token that does not support approve/transferFrom & allowance function
@@ -10,15 +8,15 @@ pragma solidity ^0.4.4;
  * V2 >> Supports the approve/transferFrom & allowance function
  * V3 >> Add some admin functions that only the owner of the coin can execute
  * 
- * Walkthrough is in Section#9 of course
+ * 
  */
 contract CourseTokenV1 {
 
   // 1. Declare the metadata for the coin
   //    All of thse variables declared public constant - so available as functions
 
-  string public constant name = "DAPP Course Token";
-  string public constant symbol = "DCT";
+  string public constant name = "Crypto Clash";
+  string public constant symbol = "CC$";
 
   // Token values are passed as integers so decimals is the number of decimals from righ
   // E.g., decimals = 2, value=100 interpretted as 1.00
